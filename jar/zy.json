@@ -120,15 +120,6 @@
       "quickSearch": 1,
       "filterable": 0
     },
-    {
-      "key": "csp_饭团",
-      "name": "🐉饭团〔SP〕",
-      "type": 3,
-      "api": "csp_Fantuan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
 	{
   "key":"csp_饭团",
   "name":"🐉饭团〔SP〕",
@@ -136,7 +127,7 @@
   "api":"csp_Fantuan",
   "searchable":1,
   "quickSearch":1,
-  "filterable":0,
+  "filterable":1,
   "ext":"https://gitea.com/qjyw001/mmmmmm/raw/branch/master/xb/%E9%A5%AD%E5%9B%A2%E5%BD%B1%E9%99%A2.json"
   },
     {
