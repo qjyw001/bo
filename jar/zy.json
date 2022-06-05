@@ -15,7 +15,7 @@
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
-        "ext":"https://gitcode.net/qq_29773171/mao/-/raw/tv/maotv1/xpath/buka.json"
+        "ext":"https://gitea.com/qjyw001/mmmmmm/raw/branch/master/xb/BUKA.json"
         },
     {
       "key": "csp_厂长资源",
@@ -34,7 +34,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://gitee.com/hd2019/OneClickRun/raw/master/xpath/lezhutv.json"
+      "ext": "https://gitea.com/qjyw001/mmmmmm/raw/branch/master/xb/%E4%B9%90%E7%8C%AA%E5%BD%B1%E8%A7%86.json"
     },
     {
       "key": "csp_xpath_虎牙直播",
@@ -64,7 +64,7 @@
   "searchable":1,
   "quickSearch":1,
   "filterable":0,
-  "ext":"https://raw.fastgit.org/YuanHsing/OneClickRun/master/xb/在线之家.json"
+  "ext":"https://gitea.com/qjyw001/mmmmmm/raw/branch/master/xb/%E5%9C%A8%E7%BA%BF%E4%B9%8B%E5%AE%B6.json"
   },
     {
       "key": "csp_77",
