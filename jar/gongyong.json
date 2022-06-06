@@ -2,7 +2,7 @@
   "sites": [
     {
           "key": "csp_biubiu_真不卡影院",
-      "name": "真不卡(XB)",
+      "name": "🐞真不卡(XB)",
       "type": 3,
       "api": "csp_XBiubiu",
       "searchable": 1,
@@ -79,16 +79,7 @@
             "filterable": 1
         },
     {"key":"csp_xpath_六度3","name":"六度","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://pglblb.coding.net/p/maotv/d/xp_20220407/git/raw/master/%E5%85%AD%E5%BA%A6TV.json?download=false"},
-        
-       {
-            "key": "csp_Buka",
-            "name": "不卡🐞",
-            "type": 3,
-            "api": "csp_Buka",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 1
-        },
+
         {
             "key": "csp_N0ys",
             "name": "九零🐞",
