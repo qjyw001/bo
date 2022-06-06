@@ -1,14 +1,65 @@
 {
   "sites": [
+    {
+          "key": "csp_biubiu_真不卡影院",
+      "name": "真不卡(XB)",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://yilishawk.github.io/mao/真不卡.json"
+    },
+            {
+          "key": "csp_biubiu_影视工厂",
+      "name": "影视工厂(XB)",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://yilishawk.github.io/mao/影视工厂.json"
+    },
+            {
+          "key": "csp_biubiu_口袋影院",
+      "name": "口袋影院(XB)",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://yilishawk.github.io/mao/口袋影院.json"
+    },
         {
-            "key": "官采",
-            "name": "江北",
-            "type": 1,
-            "api": "https://gfzycj.hnmj.vip/api.php/provide/vod/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
+          "key": "csp_biubiu_周末影院2",
+      "name": "周末影院(XB)",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://yilishawk.github.io/mao/周末影院2.json"
+    },
+            {
+          "key": "csp_biubiu_双十一电影",
+      "name": "双十一电影(XB)",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://yilishawk.github.io/mao/双十一电影.json"
+    },
+        {
+          "key": "csp_biubiu_在线之家",
+      "name": "在线之家(XB)",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://yilishawk.github.io/mao/在线之家.json"
+    },
     {
      "key":"csp_77",
      "name":"酷云77(💯)",
