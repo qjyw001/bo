@@ -1,7 +1,11 @@
 {
+  "spider": "https://gitea.com/qjyw001/catvod/raw/branch/master/jar/qj.jar",
+
+"lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly93ZHMuZWNzeHMuY29tLzIyODA0NS50eHQ="]}]}],
+
   "sites": [
- {"key":"csp_Buka","name":"📒经常卡(SP)","type":3,"api":"csp_Buka","searchable":1,"quickSearch":1,"filterable":1},
- {"key":"csp_BBB","name":"🅱️哔哩套餐","type":3,"api":"csp_BBB","searchable":0,"quickSearch":0,"filterable":1},
+{"key":"csp_Buka","name":"📒经常卡(SP)","type":3,"api":"csp_Buka","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_BBB","name":"🅱️哔哩套餐","type":3,"api":"csp_BBB","searchable":0,"quickSearch":0,"filterable":1},
     {
       "key": "csp_厂长资源",
       "name": "🚬 厂长资源",
@@ -23,13 +27,15 @@
     },
     {
       "key": "csp_纸条",
-      "name": "👒小纸条",
+      "name": "📜小纸条",
       "type": 3,
       "api": "csp_GitCafe",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
     },
+ {"key":"csp_LiteApple","name":"🍎小苹果(SP)","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable": 1},
+{"key": "csp_Kmys","name": "🐱酷猫影视","type": 3,"api": "csp_Kmys","searchable": 1,"quickSearch": 1,"filterable": 1},
     {
       "key": "csp_xpath_虎牙直播",
       "name": "🐯虎牙直播〔X〕",
@@ -40,35 +46,28 @@
       "filterable": 0,
       "ext": "https://gitea.com/qjyw001/mmmmmm/raw/branch/master/xb/%E8%99%8E%E7%89%99%E7%9B%B4%E6%92%AD.json"
     },
-    {
+  {"key": "csp_Blixs"      ,"name":"👬相声小品","type": 3,"api": "csp_Blixs","searchable": 1,"quickSearch": 1,"filterable": 1},
+   {"key": "csp_Blixq","name":"🎎戏曲","type": 3,"api": "csp_Blixq","searchable": 1,"quickSearch": 1,"filterable": 1},
+     {
       "key": "csp_xpath_qiumi",
-      "name": "球迷(XPathFilter)",
+      "name": "⚽球迷(XPathFilter)",
       "type": 3,
       "api": "csp_XPathFilter",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "{\r\n    \"author\": \"dj\",\r\n    \"ua\": \"\",\r\n    \"homeUrl\": \"http://www.jrskan.com/\",\r\n    //\"homeUrl\": \"http://jrsbxj.com/\",\r\n    //\"homeUrl\": \"http://jrsyyds.com/\",\r\n    \r\n    \"cateManual\": {\r\n        \"DJ看\": \"1\"\r\n    },\r\n\t\r\n\t// 首页推荐视频的节点\r\n    \"homeVodNode\": \"//ul[@data-stype='zqlq']\",\r\n\t// 首页推荐视频的名称\r\n    //\"homeVodName\": \"/li[@class='lab_events']/span/text()\",\r\n\t\"homeVodName\": \"concat(/li[@class='lab_time']/text(),'-',/li[@class='lab_events']/span/text())\",\r\n\t// 首页推荐视频的id\r\n    \"homeVodId\": \"/li[@class='lab_channel']/a[1]/@href\",\r\n\t// 二次处理正则\r\n    \"homeVodIdR\": \"http://play.sportsteam365.com/play/steam(\\\\d+).html\",\r\n\t//\"cateVodIdR\": \"\\\\S+/(\\\\d+).html\",\r\n\t// 首页推荐视频的图片\r\n    \"homeVodImg\": \"/li[@class='lab_team_home']/span/img/@src\",  \r\n\t// 首页推荐视频的简介\r\n    \"homeVodMark\": \"concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text(),'-dj')\",\r\n\t\"home\": \"dj\",\r\n\t// 分类页地址 {cateId} 分类id {catePg} 当前页\r\n    \"cateUrl\": \"http://www.jrskan.com/\",\r\n\t  // 同上面的homeVod字段 分类列表中的视频信息\r\n\t\"cateVodNode\": \"//ul[@data-stype='zqlq']\",\r\n    //\"cateVodName\": \"/li[@class='lab_events']/span/text()\",\r\n    \"cateVodName\": \"concat(/li[@class='lab_time']/text(),'-',/li[@class='lab_events']/span/text(),'dj')\",\r\n    \"cateVodId\": \"/li[@class='lab_channel']/a[1]/@href\",\r\n    \"cateVodIdR\": \"http://play.sportsteam365.com/play/steam(\\\\d+).html\",\r\n\t//\"cateVodIdR\": \"\\\\S+/(\\\\d+).html\",\r\n    \"cateVodImg\": \"/li[@class='lab_team_home']/span/img/@src\",\r\n    \"cateVodMark\": \"concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())\",\r\n\t//\"cateVodMark\": \"{vid}\",\r\n\t\"cate\": \"dj\",\r\n\t// 详情页地址 用于获取详情页信息 及 播放列表和地址\r\n    //\"dtUrl\": \"{vid}\",\r\n\t\"dtUrl\": \"http://play.sportsteam333.com/play/steam{vid}.html\",\r\n\t// 详情节点\r\n    \"dtNode\": \"//ul[@data-stype='zqlq']\",\r\n\t// 视频名\r\n    \"dtName\": \"/li[1]/span/text()\",\r\n\t// 视频图片\r\n    \"dtImg\": \"/li[3]/span/img/@src\",\r\n\t// 视频分类\r\n    \"dtCate\": \"/li[1]/span/text()\",\r\n    //演员\r\n    \"dtActor\": \"/li[1]/span/text()\",\r\n    // 导演\r\n    \"dtDirector\": \"concat('xxx -','Never underestimate the heart of a champion! ')\",\r\n    \"dtDirectorR\": \"\",\r\n    // 视频简介\r\n    \"dtDesc\": \"concat(/li[3]/strong/text(),'-',/li[5]/strong/text(),'-dj')\",\r\n\t\r\n\t// 播放源节点\r\n    \"dtFromNode\": \"//div[@class='sub_channel']/a/strong\",\r\n\t// 播放源名称\r\n    \"dtFromName\": \"concat('dj-',/text())\",\r\n    \"dtFromNameR\": \"\",\r\n\t// 播放列表节点\r\n    \"dtUrlNode\": \"//div[@class='sub_channel']\",\r\n\t// 播放地址节点\r\n    \"dtUrlSubNode\": \"/a\",\r\n    \"dtUrlSub\": \"/ff\",\r\n\t// 播放地址\r\n    \"dtUrlId\": \"@data-play\",\r\n    \"dtUrlIdR\": \"/play/(\\\\S+)\",\r\n\t//\"dtUrlIdR\": \"\\\\S+/(\\\\d+)&id2=\",\r\n\t// 剧集名称\r\n    \"dtUrlName\": \"/strong/text()\",\r\n    \"dtUrlNameR\": \"\",\r\n\t\r\n\t//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址\r\n    \"playUrl\":\"http://play.sportsteam333.com/play/{playUrl}#ff\",\r\n    //\"playUrl\":\"http://play.sportsteam666.com/play/{playUrl}\",\r\n    //\"playUrl\": \"http://play.sportsteam365.com/play/{playUrl}\",\r\n    //\"playUa\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36\", \r\n    //\"playUa\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36\",\r\n\t\r\n    \"searchUrl\": \"http://www.jrskan.com?key={wd}\",\r\n    \"scVodNode\": \"//div[@class='play_xg']/li\",\r\n    \"scVodName\": \"//div[@class='name']/a/@title\",\r\n    \"scVodId\": \"//div[@class='name']/a/@href\",\r\n    \"scVodIdR\": \"/play/(\\\\d+).html\",\r\n    \"scVodImg\": \"//div[@class='pic']/a/img/@src\",\r\n    \"scVodMark\": \"\"\r\n}"
-    },
-    {
-      "key": "csp_biubiu_在线之家",
-      "name": "🐱在线之家(XB)",
-      "type": 3,
-      "api": "csp_XBiubiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://gitea.com/qjyw001/catvod/raw/branch/master/xb/%E5%9C%A8%E7%BA%BF%E4%B9%8B%E5%AE%B6.json"
+      "ext": "https://gitea.com/qjyw001/catvod/raw/branch/master/xb/%E7%90%83%E8%BF%B7.json"
     },
     {
       "key": "csp_77",
-      "name": "🐞七七",
+      "name": "👒七七",
       "type": 3,
       "api": "csp_Kunyu77",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
+{"key":"csp_biubiu_特狗影S","name":"🐶特狗影S(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://gitea.com/qjyw001/catvod/raw/branch/master/xb/%E7%89%B9%E7%8B%97.json"},
 {"key":"csp_biubiu_555电影","name":"🎁555电影(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://gitea.com/qjyw001/catvod/raw/branch/master/xb/555%E7%94%B5%E5%BD%B1.json"},
 {"key":"csp_biubiu_骚火电影","name":"🔥骚火电影(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://gitea.com/qjyw001/catvod/raw/branch/master/xb/%E9%AA%9A%E7%81%AB%E7%94%B5%E5%BD%B1.json"},
 {"key":"csp_biubiu_LIBVIO","name":"🔷LIBVIO(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://gitea.com/qjyw001/catvod/raw/branch/master/xb/LIBVIO.json"},
@@ -91,6 +90,8 @@
 {"key":"csp_Auete","name":"🐼Auete(SP)","type":3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_DY1990","name":"📀1990电影(SP)","type":3,"api":"csp_DY1990","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"if101资源","name":"✈️if101(海外推荐)","type":0,"api":"https://demo.if101.tv/api.php/provide/vod/at/xml","searchable":1,"quickSearch":0,"filterable":0},
+{"key":"_xmf哔","name":"📮哔嘀(XPF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitea.com/wanglei52076/CatVodTV/raw/branch/main/baddychen0608/MeowXP/bidi.json"},
+{"key":"spider_Bttoo","name":"📚2BT(SP)","type":3,"api":"csp_Bttoo","searchable":1,"quickSearch":1,"filterable":1},
     {
       "key": "csp_蓝光影院",
       "name": "🚀蓝光影院〔SP〕",
@@ -111,7 +112,7 @@
     },
     {
       "key": "csp_喵狸盘搜",
-      "name": "🎨喵搜",
+      "name": "😸喵搜",
       "type": 3,
       "api": "csp_AliPanSou",
       "searchable": 1,
@@ -192,7 +193,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://pglblb.coding.net/p/maotv/d/xp_20220407/git/raw/master/%E5%85%AD%E5%BA%A6TV.json?download=false"
+      "ext": "https://gitea.com/qjyw001/catvod/raw/branch/master/xb/%E5%85%AD%E5%BA%A6TV.json"
     },
     {
       "key": "csp_xpath_lib",
@@ -222,27 +223,17 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://tv.nxog.top/m/dadagui.json"
-    },
-    {
-      "key": "csp_xpath_jbb",
-      "name": "🥒剧白白(XP)",
-      "type": 3,
-      "api": "csp_XPathMacFilter",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://tv.nxog.top/m/jubaibai.json"
+      "ext": "https://gitea.com/qjyw001/catvod/raw/branch/master/xb/%E8%BE%BE%E8%BE%BE%E9%BE%9F.json"
     },
     {
       "key": "789看片",
-      "name": "789看片",
+      "name": "🐞789看片",
       "type": 3,
       "api": "csp_XPathRec",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://tangsan99999.github.io/sub/xpath/789ba.json"
+      "ext": "https://gitea.com/qjyw001/catvod/raw/branch/master/xb/789%E5%BD%B1%E8%A7%86.json"
     },
     {
       "key": "csp_appysv2_天空V2",
@@ -295,7 +286,7 @@
     },
     {
       "key": "小小",
-      "name": "小小",
+      "name": "🐞小小",
       "type": 0,
       "api": "https://www.mbomovie.com/api.php/provide/vod/at/xml",
       "searchable": 1,
@@ -420,7 +411,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://yangyang1975.coding.net/p/free/d/mao/git/raw/master/xpath/huamao.json"
+      "ext": "https://gitea.com/qjyw001/catvod/raw/branch/master/xb/%E8%8A%B1%E7%8C%ABTV.json"
     },
     {
       "key": "csp_AppYs_秒播",
@@ -450,7 +441,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://vod.9e03.com/lvdou_api.php/v1.vod"
+      "ext": "https://gitea.com/qjyw001/catvod/raw/branch/master/xb/9%E4%BA%BF%E8%B5%84%E6%BA%90.json"
     },
     {
       "key": "csp_appysv2_金叶影院",
@@ -609,7 +600,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://yangyang1975.coding.net/p/free/d/mao/git/raw/master/xpath/xiaoqiang.json"
+      "ext": "https://gitea.com/qjyw001/catvod/raw/branch/master/xb/%E5%B0%8F%E5%BC%BA%E8%BF%B7.json"
     },
     {
       "key": "csp_xpath_tvby",
@@ -639,7 +630,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://yangyang1975.coding.net/p/free/d/mao/git/raw/master/xpath/%E4%B9%8C%E9%BE%9F%E5%BD%B1%E9%99%A2.json"
+      "ext": "https://gitea.com/qjyw001/catvod/raw/branch/master/xb/%E4%B9%8C%E9%BE%9F%E5%BD%B1%E9%99%A2.json"
     },
     {
       "key": "csp_xpath_348",
@@ -928,19 +919,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
-    }
-  ],
-  "lives": [
-    {
-      "group": "redirect",
-      "channels": [
-        {
-          "name": "redirect",
-          "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9mbHlpbmctZ3V5cy5jb2RpbmcubmV0L3AvbWFvL2QvamFyL2dpdC9yYXcvbWFzdGVyL2xpdmUvbXl0di50eHQ="
-          ]
-        }
-      ]
     }
   ],
   "parses": [
@@ -2888,6 +2866,5 @@
     "qiu.xixiqiu.com",
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
-  ],
-  "spider": "https://gitea.com/qjyw001/catvod/raw/branch/master/jar/220625.jar"
+  ]
 }
