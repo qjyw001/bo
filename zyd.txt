@@ -102,7 +102,7 @@
 
 {"key":"csp_xbb_zbkyy2","name":"🐌真不卡影院","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://raw.githubusercontent.com/qjyw001/box/master/xpath/zbkyy.json"},
 
-      "key": "csp_xpath_虎牙直播",
+     { "key": "csp_xpath_虎牙直播",
       "name": "🐯虎牙直播〔X〕",
       "type": 3,
       "api": "csp_XPath",
