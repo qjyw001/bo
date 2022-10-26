@@ -2,7 +2,7 @@
 
 
   //"spider":"https://gitcode.net/qjyw001/bo/-/raw/master/JAR/209.jar;md5;18D26913107F18900630BF4CB1553ADB",
-  "spider":"https://od.lk/s/MThfMzgxMjI1OTZf/Yoursmile.jpg;md5;50F526FE9C971FB1AC5AD1840289A040",
+  "spider":"https://ghproxy.com/https://raw.githubusercontent.com/qjyw001/bo/master/jar/Yoursmile.jar;md5;BF360835213389FFEECA8136ED2C929C",
 // "spider": "https://gitcode.net/qjyw001/bo/-/raw/master/JAR/gg0925.jar;md5;3BBE25C7A4BC9DD927D24258686517E1",
 //"spider": "https://raw.iqiq.io/liu673cn/box/main/sub/jar/2925.jar;md5;3BBE25C7A4BC9DD927D24258686517E1",
 
