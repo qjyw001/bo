@@ -1,7 +1,7 @@
 {
 
 
-  "spider":"https://dxawi.github.io/1/jar/cs.jar;md5;83fb605345300da7c3d2c2f2a36c6cdc",
+  "spider":"https://agit.ai/qjyw001/zyd/raw/branch/master/jar/6in1.jar;md5;7C7AED2A81F77E38585A24DF85CC2A22",
  //"spider":"https://ghproxy.com/https://raw.githubusercontent.com/qjyw001/bo/master/jar/Pandora.txt",
 // "spider": "https://gitcode.net/qjyw001/bo/-/raw/master/JAR/gg0925.jar;md5;3BBE25C7A4BC9DD927D24258686517E1",
 //"spider": "https://raw.iqiq.io/liu673cn/box/main/sub/jar/2925.jar;md5;3BBE25C7A4BC9DD927D24258686517E1",
