@@ -1,6 +1,6 @@
 
 {
-    "spider": "https://ghproxy.net/://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/JAR/18.jar",
+    "spider": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBb3d0QlVrR3NRUExsRFo2WmhrZDFDY0hENWpr.jar",
     "wallpaper": "https://tuapi.eees.cc/api.php?category=meinv&type=302",
     "lives": [
         {
